@@ -1,0 +1,17 @@
+.button {
+    position: fixed;
+    top: 60vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    background: #007aff;
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    text-align: center;
+    width: 80vw;
+    height: 10vw;
+    font-size: 4vw;
+}

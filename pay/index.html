@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Misaka 御坂网络</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <button id="button" class="button">打开</button>
+    <script>
+        const to = () => window.location.replace("weixin://widget/pay");
+        window.onload = to;
+        document.getElementById('button').addEventListener('click', to);
+    </script>
+</body>
+
+</html>
